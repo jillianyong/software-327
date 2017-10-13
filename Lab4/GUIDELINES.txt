@@ -1,0 +1,13 @@
+********************************************************************************************************
+THIS LAB EXERCISE WAS CREATED BY ONE OF THE TA'S IN EC327 (A SASSY FRIEND BY THE NAME OF STEVEN MALONEY)
+********************************************************************************************************
+
+In this problem we will help you and your friends split the bill. You will make a program for a waiter to help collect the bill. The function tip should take the total including tax, and return the total with tax. 
+Tax should take an item cost and ask what type of item it is. If it is (l)iquor then it should be taxed at 12%, if it is (f)ood then it should be taxed at 9%. 
+Finally, you should put in the final bill (including tip and tax) and how many people you are splitting it with and the function should return how much each person owes.
+If the user puts in a tip below 15 then ask them again for a higher tip. If the user puts in a tip above 20 then tell them they are very generous.
+
+Function prototypes:
+double tip(double total, double percent); 
+double tax(double amount, char kind); 
+double split(double total, int people);
