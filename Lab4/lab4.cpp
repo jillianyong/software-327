@@ -1,4 +1,5 @@
 //Lab 4 Cashier Problem
+//Updated Github test
 #include <iostream>
 #include "cashier.h"
 using namespace std;
