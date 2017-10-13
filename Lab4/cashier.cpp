@@ -1,3 +1,4 @@
+//Github test
 #include "cashier.h"
 
 using namespace std;
