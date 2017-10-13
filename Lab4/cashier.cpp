@@ -1,4 +1,5 @@
 //Github test
+//Testing pull requests
 #include "cashier.h"
 
 using namespace std;
