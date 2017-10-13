@@ -1,5 +1,4 @@
 //Lab 4 Cashier Problem
-//Works, you just need to figure out how to do function prototypes
 #include <iostream>
 #include "cashier.h"
 using namespace std;
