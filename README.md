@@ -1,3 +1,3 @@
 # software-327
 EC327 software engineering (C++ and Java)
-All relevant labs and projects will eventually go here.
+A small snippet of some of the programming assignments and labs done in class
