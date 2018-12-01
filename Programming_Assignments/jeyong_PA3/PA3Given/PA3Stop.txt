@@ -1,0 +1,84 @@
+EC327: Introduction to Software Engineering
+Fall 2017
+Programming Assignment 3
+Game_Object constructed.
+Person constructed.
+Astronaut constructed.
+Game_Object constructed.
+Person constructed.
+Astronaut constructed.
+Game_Object constructed.
+Oxygen_Depot constructed.
+Game_Object constructed.
+Oxygen_Depot constructed.
+Game_Object constructed.
+Space_Station constructed.
+Game_Object constructed.
+Space_Station constructed.
+Model default constructed.
+Time: 0
+Astronaut status: A1 at (5,1) is stopped with 20 oxygen and 0 moon stones.
+Astronaut status: A2 at (10,1) is stopped with 20 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. A1. . A2. . . . .
+  0   4   8   12  16  20
+Enter command: m 1 10 10
+Moving 1 to (10,10)
+A1: On my way.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. A1. . A2. . . . .
+  0   4   8   12  16  20
+Enter command: s 1
+A1: Stopped.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. A1. . A2. . . . .
+  0   4   8   12  16  20
+Enter command: q
+Terminating program.
+Astronaut destructed.
+Person destructed.
+Game_Object destructed.
+Astronaut destructed.
+Person destructed.
+Game_Object destructed.
+Oxygen_Depot destructed.
+Game_Object destructed.
+Oxygen_Depot destructed.
+Game_Object destructed.
+Space_Station destructed.
+Game_Object destructed.
+Space_Station destructed.
+Game_Object destructed.
+Model destructed.
+

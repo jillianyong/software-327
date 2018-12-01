@@ -1,0 +1,889 @@
+EC327: Introduction to Software Engineering
+Fall 2017
+Programming Assignment 3
+Game_Object constructed.
+Person constructed.
+Astronaut constructed.
+Game_Object constructed.
+Person constructed.
+Astronaut constructed.
+Game_Object constructed.
+Oxygen_Depot constructed.
+Game_Object constructed.
+Oxygen_Depot constructed.
+Game_Object constructed.
+Space_Station constructed.
+Game_Object constructed.
+Space_Station constructed.
+Model default constructed.
+Time: 0
+Astronaut status: A1 at (5,1) is stopped with 20 oxygen and 0 moon stones.
+Astronaut status: A2 at (10,1) is stopped with 20 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. A1. . A2. . . . .
+  0   4   8   12  16  20
+Enter command: m 1 10 10
+Moving 1 to (10,10)
+A1: On my way.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. A1. . A2. . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: step...
+Time: 1
+Astronaut status: A1 at (7.42821,5.37079) moving at speed of 5 towards (10,10) at each step of <2.42821,4.37079>
+Astronaut status: A2 at (10,1) is stopped with 20 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2A1. . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . A2. . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A1: I’m there!
+Time: 3
+Astronaut status: A1 at (10,10) is stopped with 18 oxygen and 2 moon stones.
+Astronaut status: A2 at (10,1) is stopped with 20 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . A2. . . . .
+  0   4   8   12  16  20
+Enter command: m 2 0 0
+Moving 2 to (0,0)
+A2: On my way.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . A2. . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: step...
+A2: step...
+A2: I’m there!
+Time: 6
+Astronaut status: A1 at (10,10) is stopped with 18 oxygen and 2 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 1 0 0
+Moving 1 to (0,0)
+A1: On my way.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A1: step...
+A1: I’m there!
+Time: 9
+Astronaut status: A1 at (0,0) is stopped with 16 oxygen and 4 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: w 1 1
+Astronaut 1 supplying at Oxygen Depot 1.
+A1: Yes, my lord.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: step...
+Time: 10
+Astronaut status: A1 at (0.249688,4.99376) moving at speed of 5 towards (1,20) at each step of <0.249688,4.99376> is outbound to a Depot with 15 oxygen and 5 moonstones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 A1. s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: step...
+Time: 11
+Astronaut status: A1 at (0.499376,9.98752) moving at speed of 5 towards (1,20) at each step of <0.249688,4.99376> is outbound to a Depot with 14 oxygen and 6 moonstones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 A1. . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: n
+ERROR: Please enter a valid command!
+Enter command: p
+ERROR: Please enter a valid command!
+Enter command: d 1 2
+Astronaut 1 depositing at Space Station 2.
+A1: Yes, my lord.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 A1. . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: step...
+Time: 12
+Astronaut status: A1 at (3.84907,6.27544) moving at speed of 5 towards (5,5) at each step of <3.34969,-3.71208> is inbound to home with load: 7 moon stones and 13 oxygen.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . A1. . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: I’m there!
+Time: 13
+Astronaut status: A1 at (5,5) moving at speed of 5 towards (5,5) at each step of <3.34969,-3.71208> is depositing 7 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: Deposit 7 moonstones.
+Time: 14
+Astronaut status: A1 at (5,5) is stopped with 13 oxygen and 0 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 7 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: w 1 2
+Astronaut 1 supplying at Oxygen Depot 2.
+A1: Yes, my lord.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A1: step...
+A1: step...
+A1: I’m there!
+Time: 18
+Astronaut status: A1 at (10,20) moving at speed of 5 towards (10,20) at each step of <1.58114,4.74342> is getting oxygen from Depot.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 50.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 7 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+A1: Got 20 more oxygen.
+Time: 19
+Astronaut status: A1 at (10,20) is stopped with 30 oxygen and 3 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 7 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 1 10 10
+Moving 1 to (10,10)
+A1: On my way.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A1: I’m there!
+Time: 21
+Astronaut status: A1 at (10,10) is stopped with 29 oxygen and 4 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 18 oxygen and 2 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 7 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: d 1 2
+Astronaut 1 depositing at Space Station 2.
+A1: Yes, my lord.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 2 21 21
+Moving 2 to (21,21)
+A2: On my way.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A1. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . s2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A2: step...
+A1: I’m there!
+A2: step...
+Time: 23
+Astronaut status: A1 at (5,5) moving at speed of 5 towards (5,5) at each step of <-3.53553,-3.53553> is depositing 5 moon stones.
+Astronaut status: A2 at (7.07107,7.07107) moving at speed of 5 towards (21,21) at each step of <3.53553,3.53553>
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: s2 at (5,5) contains 7 moon stones and contains 0 astronauts. Not yet upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . A2. . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: Deposit 5 moonstones.
+A2: step...
+S2 has been upgraded.
+Time: 24
+Astronaut status: A1 at (5,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (10.6066,10.6066) moving at speed of 5 towards (21,21) at each step of <3.53553,3.53553>
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . A2. . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: step...
+A2: step...
+A2: I’m there!
+Time: 27
+Astronaut status: A1 at (5,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (21,21) is stopped with 13 oxygen and 7 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 1 5 5
+Moving 1 to (5,5)
+A1: I'm already there. see?
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+Time: 32
+Astronaut status: A1 at (5,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (21,21) is stopped with 13 oxygen and 7 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 1 10 5
+Moving 1 to (10,5)
+A1: On my way.
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: I’m there!
+Time: 33
+Astronaut status: A1 at (10,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (21,21) is stopped with 13 oxygen and 7 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: w 2 2
+Astronaut 2 supplying at Oxygen Depot 2.
+A2: Yes, my lord.
+20O1. . . . O2. . . . A2
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: step...
+A2: step...
+A2: I’m there!
+Time: 36
+Astronaut status: A1 at (10,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (10,20) moving at speed of 5 towards (10,20) at each step of <-4.97947,-0.452679> is getting oxygen from Depot.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 30.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: Got 20 more oxygen.
+Time: 37
+Astronaut status: A1 at (10,5) is stopped with 28 oxygen and 0 moon stones.
+Astronaut status: A2 at (10,20) is stopped with 31 oxygen and 9 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: m 1 12 12
+Moving 1 to (12,12)
+A1: On my way.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: d 2 1
+Astronaut 2 depositing at Space Station 1.
+A2: Yes, my lord.
+20O1. . . . * . . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . A1. . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A1: step...
+A2: step...
+A1: I’m there!
+A2: step...
+Time: 39
+Astronaut status: A1 at (12,12) is stopped with 27 oxygen and 1 moon stones.
+Astronaut status: A2 at (5.52786,11.0557) moving at speed of 5 towards (0,0) at each step of <-2.23607,-4.47214> is inbound to home with load: 11 moon stones and 29 oxygen.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . A1. . . .
+  . . A2. . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 s1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: step...
+A2: step...
+A2: I’m there!
+Time: 42
+Astronaut status: A1 at (12,12) is stopped with 27 oxygen and 1 moon stones.
+Astronaut status: A2 at (0,0) moving at speed of 5 towards (0,0) at each step of <-2.23607,-4.47214> is depositing 13 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: s1 at (0,0) contains 0 moon stones and contains 0 astronauts. Not yet upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . A1. . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: r
+Advancing to next event.
+A2: Deposit 13 moonstones.
+S1 has been upgraded.
+Time: 43
+Astronaut status: A1 at (12,12) is stopped with 27 oxygen and 1 moon stones.
+Astronaut status: A2 at (0,0) is stopped with 27 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: S1 at (0,0) contains 13 moon stones and contains 0 astronauts. Upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . A1. . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: l 1 1
+Astronaut 1 locking in at Space_Station 1.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . A1. . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+Ready for takeoff? 10...
+Missing 2 astronauts!
+A1: step...
+Time: 44
+Astronaut status: A1 at (8.46447,8.46447) is locked at Space Station.
+Astronaut status: A2 at (0,0) is stopped with 27 oxygen and 0 moon stones.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: S1 at (0,0) contains 13 moon stones and contains 0 astronauts. Upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . A1. . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: l 2 2
+Astronaut 2 locking in at Space_Station 2.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . A1. . . . . .
+  . . . . . . . . . . .
+4 . . S2. . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+Ready for takeoff? 9...
+Missing 2 astronauts!
+A1: step...
+A2: step...
+Time: 45
+Astronaut status: A1 at (4.92893,4.92893) is locked at Space Station.
+Astronaut status: A2 at (3.53553,3.53553) is locked at Space Station.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: S1 at (0,0) contains 13 moon stones and contains 0 astronauts. Upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 0 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . A2. . . . . . . . .
+0 S1. . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+Ready for takeoff? 8...
+Missing 2 astronauts!
+A1: step...
+A2: I’m there!
+Time: 46
+Astronaut status: A1 at (1.3934,1.3934) is locked at Space Station.
+Astronaut status: A2 at (5,5) is locked at Space Station.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: S1 at (0,0) contains 13 moon stones and contains 0 astronauts. Upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 1 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+Ready for takeoff? 7...
+Missing 1 astronauts!
+A1: I’m there!
+Time: 47
+Astronaut status: A1 at (0,0) is locked at Space Station.
+Astronaut status: A2 at (5,5) is locked at Space Station.
+Oxygen Depot status: O1 at location (1,20) contains 50.
+Oxygen Depot status: O2 at location (10,20) contains 10.
+Space Station status: S1 at (0,0) contains 13 moon stones and contains 1 astronauts. Upgraded.
+Space Station status: S2 at (5,5) contains 12 moon stones and contains 1 astronauts. Upgraded.
+20O1. . . . O2. . . . .
+  . . . . . . . . . . .
+16. . . . . . . . . . .
+  . . . . . . . . . . .
+12. . . . . . . . . . .
+  . . . . . . . . . . .
+8 . . . . . . . . . . .
+  . . . . . . . . . . .
+4 . . * . . . . . . . .
+  . . . . . . . . . . .
+0 * . . . . . . . . . .
+  0   4   8   12  16  20
+Enter command: g
+Advancing one tick.
+Ready for takeoff? 6...
+Blast Off! You Win!
+
